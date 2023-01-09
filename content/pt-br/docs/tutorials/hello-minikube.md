@@ -53,7 +53,7 @@ Se você instalou o Minikube localmente, execute: `minikube start`.
 
 ## Criando um Deployment
 
-Um [*Pod*](/docs/concepts/workloads/pods/) Kubernetes consiste em um ou mais contêineres agrupados para fins de administração e gerenciamento de rede. O Pod desse tutorial possui apenas um contêiner. Um [*Deployment*](/docs/concepts/workloads/controllers/deployment/) Kubernetes verifica a saúde do seu Pod e reinicia o contêiner do Pod caso o mesmo seja finalizado. Deployments são a maneira recomendada de gerenciar a criação e escalonamento dos Pods.
+Um [*Pod*](/docs/concepts/workloads/pods/) Kubernetes consiste em um ou mais contêineres agrupados para fins de administração e gerenciamento de rede. O Pod desse tutorial possui apenas um contêiner. Um [*Deployment*](/docs/concepts/workloads/controllers/deployment/) Kubernetes verifica a saúde do seu Pod e reinicia o contêiner do Pod caso ele seja finalizado. Deployments são a maneira recomendada de gerenciar a criação e escalonamento dos Pods.
 
 1. Usando o comando `kubectl create` para criar um Deployment que gerencia um Pod. O Pod executa um contêiner baseado na imagem docker disponibilizada.
 
